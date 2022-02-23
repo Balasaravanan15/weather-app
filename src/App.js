@@ -60,7 +60,7 @@ function App() {
               {Math.round(weather.main.temp)}°c
             </div>
             <div className="weather">{weather.weather[0].main}</div>
-            <footer className="footer">Developed by - <a href="#">B A L A</a>- SCE - TRICHY</footer>
+            <footer className="footer">Developed by - <a href="https://www.linkedin.com/in/bala-saravanan-29b24b196">B A L A</a>- SCE - TRICHY</footer>
           </div>
         </div>
         ) : ('')}
